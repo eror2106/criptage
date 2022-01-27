@@ -1,0 +1,76 @@
+body{
+  background-color: rgb(87, 83, 83);
+  text-align: center;
+}
+
+
+textarea{
+  border: none;
+}
+.style{
+  background-color: #3b3b3b;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer
+}
+#resultat{
+  background-color: rgb(255, 255, 255);
+  padding: 1%;
+  margin-left: 10%;
+  margin-right: 10%;
+  min-height: 25px;
+}
+#avertisement{
+  
+  color: rgb(255, 0, 0);
+  font-size: 1.5rem;
+  position: sticky;
+}
+
+
+@media only screen and (max-width: 400px) {
+  body{
+    background-color: rgb(87, 83, 83);
+    text-align: center;
+  }
+  
+  
+  textarea{
+    border: none;
+    /*margin:30%;*/
+    
+    max-width: 80%;
+  }
+  .style{
+    background-color: #3b3b3b;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 2px 1px;
+    cursor: pointer
+  }
+  #resultat{
+    background-color: rgb(255, 255, 255);
+    padding: 1%;
+    margin-left: -5%;
+    margin-right: -5%;
+    min-height: 25px;
+  }
+  #avertisement{
+    color: rgb(255, 0, 0);
+    font-size: 1.5rem;
+  }
+  
+  
+}
+
